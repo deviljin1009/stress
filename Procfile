@@ -1,1 +1,1 @@
-web: ./vendor/bin/heroku-php-apache2 fyp webpage/
+web: vendor/bin/heroku-php-apache2 
