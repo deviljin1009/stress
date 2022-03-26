@@ -211,7 +211,7 @@ a.login{
     margin-left: 6%;
     width: 35%;
     height: 70%;
-    background-image: url("http://www.clipartbest.com/cliparts/di6/XLo/di6XLoL7T.gif");
+    background-image: url("eyeblink.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
