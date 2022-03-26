@@ -7,6 +7,8 @@ include_once("include/session.php");
   $method = $_GET['method'];
   $_SESSION['blinks']=$_GET['blink'];
   $_SESSION['method']=$_GET['method'];
+  echo "$blink";
+  echo "$method";
   
 ?>
 
