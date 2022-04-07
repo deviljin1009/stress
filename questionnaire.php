@@ -5,7 +5,7 @@ include_once("include/session.php");
 
   $blink = $_SESSION['blinks'];
   $method = $_SESSION['method'];
-
+  $update = false;
   if (isset($_POST['submit'])){
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
@@ -32,7 +32,9 @@ include_once("include/session.php");
         else{
             $stress="high";
         }
-
+      $update = true;
+    }
+    if($update){
         $sql = "INSERT INTO questionnairehistory(q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,score,stressLevel,userID) VALUES('$q1','$q2','$q3','$q4','$q5','$q6','$q7','$q8','$q9','$q10','$score','$stress','$id')";
         $conn->exec($sql);
 
