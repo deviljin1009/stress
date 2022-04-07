@@ -230,7 +230,7 @@ video.addEventListener('play', () => {
   }, 33)
 
   setTimeout(function () {
-    window.location.href= 'https://stress-detect-app.herokuapp.com/question.php?blink='+blinkCount+'&method=2'; 
+    window.location.href= 'http://stress-detect-app.herokuapp.com/question.php?blink='+blinkCount+'&method=2'; 
   },30000);
 
 }
