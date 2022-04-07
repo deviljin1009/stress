@@ -31,7 +31,7 @@ echo "</div>";
 
 echo "<div class=\"button\">
     <a class=\"red\" href=\"decisionPanel.php\">Cancel</a>
-    <a class=\"green\" href=\"interaction1.php\">Proceed</a>
+    <a class=\"green\" href=\"https://stress-detect-app.herokuapp.com/interaction1.php\">Proceed</a>
 </div>
 </div>";
   }
@@ -51,7 +51,7 @@ echo "<div class=\"button\">
     
     echo "<div class=\"button\">
         <a class=\"red\" href=\"decisionPanel.php\">Cancel</a>
-        <a class=\"green\" href=\"interaction2.php\">Proceed</a>
+        <a class=\"green\" href=\"https://stress-detect-app.herokuapp.com/interaction2.php\">Proceed</a>
     </div>
     </div>";
       }
@@ -71,7 +71,7 @@ echo "<div class=\"button\">
         
         echo "<div class=\"button\">
             <a class=\"red\" href=\"decisionPanel.php\">Cancel</a>
-            <a class=\"green\" href=\"interaction3.php\">Proceed</a>
+            <a class=\"green\" href=\"https://stress-detect-app.herokuapp.com/interaction3.php\">Proceed</a>
         </div>
         </div>";
           }
