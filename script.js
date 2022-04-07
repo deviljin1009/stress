@@ -201,7 +201,7 @@ video.addEventListener('play', () => {
   }, 33)
 
   setTimeout(function () {
-    window.location.href= 'navigate.php?blink='+blinkCount+'&method=1'; 
+    window.location.href= 'http://stress-detect-app.herokuapp.com/navigate.php?blink='+blinkCount+'&method=1'; 
   },120000);
 
 }
