@@ -51,7 +51,7 @@ echo "<div class=\"button\">
     
     echo "<div class=\"button\">
         <a class=\"red\" href=\"decisionPanel.php\">Cancel</a>
-        <a class=\"green\" href=\"interaction2.html\">Proceed</a>
+        <a class=\"green\" href=\"interaction2.php\">Proceed</a>
     </div>
     </div>";
       }
