@@ -27,7 +27,7 @@ echo "<div class=\"instruction\">You will be given 2 minute to read through an a
         </div>";
 
 echo "<div class=\"video\">";
-    echo "<video width=\"750px\" height=\"600px\" autoplay muted loop>
+    echo "<video width=\"750px\" height=\"500px\" autoplay muted loop>
     <source src=\"fyp_video/Article.mp4\" type=\"video/mp4\">
     </video>";
 echo "</div>";
@@ -50,7 +50,7 @@ echo "<div class=\"button\">
     </div>";
     
     echo "<div class=\"video\">";
-        echo "<video width=\"750px\" height=\"600px\" autoplay muted loop>
+        echo "<video width=\"750px\" height=\"500px\" autoplay muted loop>
         <source src=\"fyp_video/Float.mp4\" type=\"video/mp4\">
         </video>";
     echo "</div>";
@@ -73,7 +73,7 @@ echo "<div class=\"button\">
         </div>";
         
         echo "<div class=\"video\">";
-            echo "<video width=\"750px\" height=\"600px\" autoplay muted loop>
+            echo "<video width=\"750px\" height=\"500px\" autoplay muted loop>
             <source src=\"fyp_video/Hover.mp4\" type=\"video/mp4\">
             </video>";
         echo "</div>";
