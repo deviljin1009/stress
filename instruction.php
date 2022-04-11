@@ -44,7 +44,10 @@ echo "<div class=\"button\">
     echo "<div class=\"box\">";
     
     echo "<div class=\"header\">Please Follow the Instruction Below</div>";
-    echo "<div class=\"instruction\">You will be given 30 seconds to observe some floating words. Your stress level will be determined by analyzing your eye blinking rate throughout the interaction. </div>";
+    echo "<div class=\"instruction\">You will be given 30 seconds to observe some floating words. Your stress level will be determined by analyzing your eye blinking rate throughout the interaction. 
+            <br>
+        Note: Please avoid wearing glasses and keep you head stay still for more accurate detection. Due to the delayness of server, please wait for 10-20 seconds for the webcam frame to show up and refresh the page.    
+    </div>";
     
     echo "<div class=\"video\">";
         echo "<video width=\"750px\" height=\"600px\" autoplay muted loop>
@@ -64,7 +67,10 @@ echo "<div class=\"button\">
         echo "<div class=\"box\">";
         
         echo "<div class=\"header\">Please Follow the Instruction Below</div>";
-        echo "<div class=\"instruction\">You will be given 1 minute to find out the hidden words by hovering and clicking on them. Your stress level will be determined by analyzing your eye blinking rate throughout the interaction. </div>";
+        echo "<div class=\"instruction\">You will be given 1 minute to find out the hidden words by hovering and clicking on them. Your stress level will be determined by analyzing your eye blinking rate throughout the interaction. 
+                <br>
+        Note: Please avoid wearing glasses and keep you head stay still for more accurate detection. Due to the delayness of server, please wait for 10-20 seconds for the webcam frame to show up and refresh the page.
+        </div>";
         
         echo "<div class=\"video\">";
             echo "<video width=\"750px\" height=\"600px\" autoplay muted loop>
