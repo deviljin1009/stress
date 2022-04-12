@@ -117,7 +117,7 @@ a.select:hover{
     <div class="smallDescription">
       Eye Tracking Through Articles
     </div>
-    <?php echo" <a class=\"select\" href=\"preInstruct.php?path=1\">Select</a>" ?>
+    <?php echo" <a class=\"select\" href=\"https://stress-detect-app.herokuapp.com/preInstruct.php?path=1\">Select</a>" ?>
 </div>
 <div class="section2">
     <div class="smallIcon">
@@ -126,7 +126,7 @@ a.select:hover{
     <div class="smallDescription">
       Eye Tracking Through Interaction 1
     </div>
-    <?php echo" <a class=\"select\" href=\"preInstruct.php?path=2\">Select</a>" ?>
+    <?php echo" <a class=\"select\" href=\"https://stress-detect-app.herokuapp.com/preInstruct.php?path=2\">Select</a>" ?>
 </div>
 <div class="section3">
     <div class="smallIcon">
@@ -135,7 +135,7 @@ a.select:hover{
     <div class="smallDescription">
       Eye Tracking Through Interaction 2
     </div>
-    <?php echo" <a class=\"select\" href=\"preInstruct.php?path=3\">Select</a>" ?>
+    <?php echo" <a class=\"select\" href=\"https://stress-detect-app.herokuapp.com/preInstruct.php?path=3\">Select</a>" ?>
 </div>
     </div>
     </div>
