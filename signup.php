@@ -1,5 +1,5 @@
 <?php
-
+include_once("include/config.php");
 
 $usernameErr = $emailErr = $heightErr = $weightErr = $passwordErr =  "";
 $rptPasswordErr = "Repeat Password";
