@@ -58,7 +58,7 @@ include_once("include/session.php");
 <div class="frame">
 
 <form method="POST" action="<?php echo $_SERVER["PHP_SELF"];?>">
-    <h2>Perceived Stress Scale</h2>
+    <h2>Cognitive and Affective Mindfulness Scale</h2>
     <div class=question>
     <label for="q1">l. It is easy for me to concentrate on what I am doing. </label>
     <select id="q1" name="q1" >
