@@ -31,7 +31,7 @@ if (isset($_POST['signup'])){
         $usernameDuplicate = false;
         $emailDuplicate = false;
         while($row = $result->fetch()) {
-            if ($name == $row['name']) {
+            if ($name == $row['username']) {
                 $usernameDuplicate = true;
             }
 
@@ -67,7 +67,7 @@ if (isset($_POST['signup'])){
      
 
       if ($allInputValid){
-          $sql = "INSERT INTO user(name,email,password,gender,height,weight) VALUES('$name','$email','$password','$gender','$height','$weight')";
+          $sql = "INSERT INTO user(username,email,password,gender,height,weight) VALUES('$name','$email','$password','$gender','$height','$weight')";
 
           $conn->exec($sql);
 
