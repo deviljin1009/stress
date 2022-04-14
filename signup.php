@@ -1,5 +1,5 @@
 <?php
-include_once("include/session.php");
+
 
 $usernameErr = $emailErr = $heightErr = $weightErr = $passwordErr =  "";
 $rptPasswordErr = "Repeat Password";
