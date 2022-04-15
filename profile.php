@@ -162,6 +162,12 @@ text{
     margin-top: 5%;
 }
 
+.error{
+    margin-top: 20%;
+    font-weight:bold;
+    color:red;
+}
+
 .right{
     margin-top: 8%;
     display: inline-flex;
@@ -372,6 +378,12 @@ text{
                 ?>
 
             </div>
+                <?php
+                    if(isset($_GET['trigger'])){
+                    $msg=$_GET['err'];
+                    echo "<div class=\"error\">$msg</div>";
+                    }
+                ?>
             </div>
 
             <div class="right">
