@@ -161,7 +161,7 @@ h1{
       $newPassword = $_POST['password'];
       $rptPassword = $_POST['rptPassword'];
       
-      $qry = "SELECT * FROM `user` WHERE `id` = $id";
+      $qry = "SELECT * FROM `user`";
       $result = $conn->query($qry);
       $result->setFetchMode(PDO::FETCH_ASSOC);
       while ($row = $result->fetch()) {
@@ -198,24 +198,13 @@ h1{
     }else{
     
       $errorMessage = "Your ".$err." !";
-      echo errorMessage($errorMessage);
+      header("Location:profile.php?err='$errorMessage'&trigger=1");
     }
   
   
   }
 
 ?>
-
-<script>
-    function errorMessage(err) {
-  if (confirm("Your ".err." !")) {
-    window.location='editUser.php';
-  } else {
-    window.location='profile.php';
-  }
-}
-</script>
-
 
 <form method="POST" class="box" >
     <h1>Edit Profile</h1>
