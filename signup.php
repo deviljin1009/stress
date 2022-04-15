@@ -98,10 +98,12 @@ if (isset($_POST['signup'])){
       include('include/signupPopup.php');
      }
     ?>
+        
+     <div class="back">
+      <a href="login.php">&#8592</a>
+    </div>
+        
     <div class="box">
-    
-
-
     <form method="POST" action="<?php echo $_SERVER["PHP_SELF"];?>">
     <div class="logo"> </div>
     <h1 data-text="SignUp">Sign Up</h1>
