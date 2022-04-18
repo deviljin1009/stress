@@ -8,6 +8,8 @@ body {
     background:linear-gradient(rgb(228, 218, 218), rgba(189, 178, 178, 0.9)),  url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0f57ce83-c7df-40bd-8332-d04ca17322f5/d1bed6i-b7bb32d0-89cf-49ae-8211-992c26e928cd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBmNTdjZTgzLWM3ZGYtNDBiZC04MzMyLWQwNGNhMTczMjJmNVwvZDFiZWQ2aS1iN2JiMzJkMC04OWNmLTQ5YWUtODIxMS05OTJjMjZlOTI4Y2QuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jdcIqmb4wtFbR5yTXIwD1_jNLNYLDGNVQM4qtS29Ob8");
     background-size: cover;
     background-position: center;
+    align-item: center;
+    text-align: center:
 }
 
 
@@ -21,10 +23,9 @@ body {
     background-color: rgb(185, 195, 202);
     border-radius: 10px;
     opacity:0.8;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    overflow-x: hidden;
+    margin: auto;
+    margin-top: 5%;
 }
 
 .header{
