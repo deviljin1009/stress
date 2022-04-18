@@ -65,7 +65,7 @@ echo "<div class=\"description\">Conduct Some Activities to Relieve Your Stress.
 else if($stress=='low'){
     echo "<div class=\"result\">Normal</div>";
     echo "<div class=\"blink\">(Eye Blink / min)  : ".$blinkPost." </div>";
-    echo "<div class=\"description\">Your Stress Level is Normal. It is Common that Human will decrease their eye blinking rate when tends to perceive more information from outside.</div>";
+    echo "<div class=\"description\">Your Stress Level is Normal. It is Common that Eye Blink Rate of Human will be Affected When They are Exposed to External Stimuli.</div>";
 }
 ?>
 <div class="button">
