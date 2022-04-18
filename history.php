@@ -207,7 +207,7 @@ table{
     
    }
   .tbl-content{
-    height:600px;
+    height:80%;
     overflow-x:auto;
     margin-top: 0px;
     border: 1px solid rgba(240, 234, 234, 0.3);
